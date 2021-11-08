@@ -1,1 +1,1 @@
-# Code for NLX-GPT, CVPR 2022
+# NLX-GPT
