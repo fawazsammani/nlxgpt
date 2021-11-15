@@ -1,2 +1,2 @@
 # NLX-GPT
-Code will be arranges and updated shortly
+Code will be arranged and updated shortly
