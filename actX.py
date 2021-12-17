@@ -335,7 +335,6 @@ num_train_epochs = 30
 weight_decay = 0
 learning_rate = 2e-5 if not finetune_pretrained else 1e-5
 gradient_accumulation_steps = 1    # accum_steps = desired_batch_size per GPU / tolerable_batch_size per GPU
-image_encoder_name = 'clip'  
 start_epoch = 0
 temperature = 1
 
