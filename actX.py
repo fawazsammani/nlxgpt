@@ -94,8 +94,6 @@ def filter_and_get_scores(resFileExp, save_scores_pathExp, full_predictions, exp
         if value == gt_answer:
             correct_keys.append(key)
             
-    print("VQA Accuracy: {:.3f}".format(len(correct_keys) / len(pred_answers.keys())))
-    
     exp_preds = [item for item in exp_predictions if item['image_id'] in correct_keys]
     
     with open(resFileExp, 'w') as w:
@@ -397,7 +395,7 @@ train_loader = torch.utils.data.DataLoader(train_dataset,
 
 
 # val_loader = torch.utils.data.DataLoader(val_dataset,
-#                                          batch_size = 1, 
+#                                          batch_size = eval_batch_size, 
 #                                          shuffle=False, 
 #                                          pin_memory=True)
 
