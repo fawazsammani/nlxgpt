@@ -37,18 +37,30 @@ First please setup your distributed training environemnt. In your environment co
 accelerate config
 ```
 and answer the questions. <br>
-#### VQA-X 
+##### VQA-X 
 Please run from the command line with: <br>
 ```bash
 accelerate launch vqaX.py
 ```
 Note: To finetune from the pretrained captioning model, please set the `finetune_pretrained` flag to `True`. 
-#### ACT-X 
+##### ACT-X 
 Please run from the command line with: <br>
 ```bash
 accelerate launch actX.py
 ```
 Note: To finetune from the pretrained captioning model, please set the `finetune_pretrained` flag to `True`. 
+
+##### e-SNLI-VE
+Please run from the command line with: <br>
+```bash
+accelerate launch esnlive.py
+```
+
+##### e-SNLI-VE (+ Concepts)
+Please run from the command line with: <br>
+```bash
+accelerate launch esnlive_concepts.py
+```
 
 ### Models
 All models can be downloaded from the links below:
