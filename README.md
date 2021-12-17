@@ -12,7 +12,7 @@ Official Code for **NLX-GPT: A Model for Natural Language Explanations in Vision
 - [accelerate](https://huggingface.co/docs/accelerate/index.html) for distributed training (install with `pip install git+https://github.com/huggingface/accelerate`)
 
 ### Images Download
-We conduct experiments on 4 different V/VL NLE Datasets: **VQA-X, ACT-X, e-SNLI-VE** and **VCR**. Please download the images into a folder in your directory named `images` using the following links (our code *does not* use pre-cached features. Instead, the features are extracted directly during code execution):
+We conduct experiments on 4 different V/VL NLE Datasets: **VQA-X, ACT-X, e-SNLI-VE** and **VCR**. Please download the images into a folder in your directory named `images` using the following links (our code *does not* use pre-cached visual features. Instead, the features are extracted directly during code execution):
 <br>
 - **VQA-X**: [COCO](https://cocodataset.org/#download) `train2014` and `val2014` images<br>
 - **ACT-X**: [MPI](http://human-pose.mpi-inf.mpg.de/#download) images <br>
