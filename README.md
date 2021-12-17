@@ -5,6 +5,12 @@ Official Code for **NLX-GPT: A Model for Natural Language Explanations in Vision
 <img src="demo.png" width="512"/>
   </p>
   
+### Requirements
+- [PyTorch](https://pytorch.org/) 1.8 or higher
+- [CLIP](https://github.com/openai/CLIP) (install with `pip install git+https://github.com/openai/CLIP.git`)
+- [transformers](https://huggingface.co/docs/transformers/index) (install with `pip install transformers`)
+- [accelerate](https://huggingface.co/docs/accelerate/index.html) for distributed training (install with `pip install git+https://github.com/huggingface/accelerate`)
+
 ### Dataset Download
 We conduct experiments on 4 different V/Vl NLE Datasets: **VQA-X, ACT-X, e-SNLI-VE** and **VCR**. Please download the images into a folder in your directory named `images` using the following links (our code *does not* use pre-cached features. Instead, the features are extracted directly during code execution):
 <br>
@@ -23,12 +29,6 @@ Then download the processed annotations in cococaption format from [here](https:
 <br>
 Alternatively, you can create all the annotations yourself from the original files. Please follow the instructions in the `data` folder for that. <br><br>
 For pretraining and concept detection, you need also data from the Visual Genome. Please see the `pretrain` folder for more information.
-
-### Requirements
-- [PyTorch](https://pytorch.org/) 1.8 or higher
-- [CLIP](https://github.com/openai/CLIP) (install with `pip install git+https://github.com/openai/CLIP.git`)
-- [transformers](https://huggingface.co/docs/transformers/index) (install with `pip install transformers`)
-- [accelerate](https://huggingface.co/docs/accelerate/index.html) for distributed training (install with `pip install git+https://github.com/huggingface/accelerate`)
 
 ### Code
 First please setup your distributed training environemnt. In your environment command line, type: <br>
