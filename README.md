@@ -32,7 +32,7 @@ Alternatively, you can create all the annotations yourself from the original fil
 For pretraining and concept detection, you need also data from the Visual Genome. Please see the `pretrain` folder for more information.
 
 ### Code
-First please setup your distributed training environemnt. In your environment command line, type: <br>
+First please setup your distributed training. In your environment command line, type: <br>
 ```bash
 accelerate config
 ```
