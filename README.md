@@ -14,10 +14,10 @@ Official Code for **NLX-GPT: A Model for Natural Language Explanations in Vision
 ### Dataset Download
 We conduct experiments on 4 different V/Vl NLE Datasets: **VQA-X, ACT-X, e-SNLI-VE** and **VCR**. Please download the images into a folder in your directory named `images` using the following links (our code *does not* use pre-cached features. Instead, the features are extracted directly during code execution):
 <br>
-- VQA-X: [COCO](https://cocodataset.org/#download) `train2014` and `val2014` images<br>
-- ACT-X: [MPI](http://human-pose.mpi-inf.mpg.de/#download) images <br>
-- e-SNLI-VE: [Flickr30K](http://shannon.cs.illinois.edu/DenotationGraph/) images <br>
-- VCR: [VCR](https://visualcommonsense.com/download/) images <br>
+- **VQA-X**: [COCO](https://cocodataset.org/#download) `train2014` and `val2014` images<br>
+- **ACT-X**: [MPI](http://human-pose.mpi-inf.mpg.de/#download) images <br>
+- **e-SNLI-VE**: [Flickr30K](http://shannon.cs.illinois.edu/DenotationGraph/) images <br>
+- **VCR**: [VCR](https://visualcommonsense.com/download/) images <br>
 <br>
 We structure the annotations for these datasets. You can dowloaded the structured annotations from here: [VQA-X](https://drive.google.com/drive/folders/16sJjeEQE2o23G-GGUi870ubXzJjdRDua?usp=sharing), [ACT-X](https://drive.google.com/drive/folders/1FffVDEgHmqnWiqD5-B5700gqErQ-3U1M?usp=sharing), [e-SNLI-VE](https://drive.google.com/drive/folders/16YyIbjOr0XAD-34sUFsmrsXxbD5aKTVf?usp=sharing), [VCR](https://drive.google.com/drive/folders/1Cpk0wngnnlW0zr_dfHvdR15Lec56HSZm?usp=sharing)
 <br>
