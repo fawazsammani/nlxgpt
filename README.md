@@ -1,6 +1,10 @@
 # NLX-GPT
-<img src="demo.png" width="512"/>
 Official Code for **NLX-GPT: A Model for Natural Language Explanations in Vision and Vision-Language Tasks**
+
+<p align="center">
+<img src="demo.png" width="512"/>
+  </p>
+  
 ### Dataset Download
 We conduct experiments on 4 different V/Vl NLE Datasets: **VQA-X, ACT-X, e-SNLI-VE** and **VCR**. Please download the images into a folder in your directory named `images` using the following links (our code *does not* use pre-cached features. Instead, the features are extracted directly during code execution):
 <br>
