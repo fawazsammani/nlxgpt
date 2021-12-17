@@ -32,7 +32,11 @@ For pretraining and concept detection, you need also data from the Visual Genome
 - [accelerate](https://huggingface.co/docs/accelerate/index.html) for distributed training (install with `pip install git+https://github.com/huggingface/accelerate`)
 
 ### Code
-Will be updated soon
+First please setup your distributed training environemnt. In your environment command line, type: `accelerate config` and answer the questions. <br>
+#### VQA-X 
+For VQA-X, please run from the command line with: <br>
+`accelerate launch vqaX.py` <br>
+Note: To finetune from the pretrained captioning model, please set the `finetune_pretrained` flag to `True`.
 
 ### Models
 All models can be downloaded from the links below:
