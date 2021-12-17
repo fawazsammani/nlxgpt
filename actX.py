@@ -274,7 +274,7 @@ def sample_sequences(model, tokenizer, loader):
                 if prev.item() in special_tokens_ids:
                     break
                 
-                # take care of when to start the <explanation> token. Nasty code in here (i hate lots of ifs)
+                # take care of when to start the <explanation> token
                 if not always_exp:
                     
                     if prev.item() != because_token:
@@ -327,14 +327,14 @@ annFileExp = 'cococaption/annotations/actX_test_annot_exp.json'
 annFileFull = 'cococaption/annotations/actX_test_annot_full.json'
 max_seq_len = 30
 load_from_epoch = None
-no_sample = True   # setting this to False will greatly reduce the evaluation scores, be careful!
+no_sample = True  
 top_k =  0
 top_p =  0.9
 batch_size = 32   # per GPU
 num_train_epochs = 30
 weight_decay = 0
 learning_rate = 2e-5 if not finetune_pretrained else 1e-5
-gradient_accumulation_steps = 1    # accum_steps = desired_batch_size per GPU / tolerable_batch_size per GPU
+gradient_accumulation_steps = 1   
 start_epoch = 0
 temperature = 1
 
