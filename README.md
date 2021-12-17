@@ -12,7 +12,7 @@ Official Code for **NLX-GPT: A Model for Natural Language Explanations in Vision
 - [accelerate](https://huggingface.co/docs/accelerate/index.html) for distributed training (install with `pip install git+https://github.com/huggingface/accelerate`)
 
 ### Images Download
-We conduct experiments on 4 different V/Vl NLE Datasets: **VQA-X, ACT-X, e-SNLI-VE** and **VCR**. Please download the images into a folder in your directory named `images` using the following links (our code *does not* use pre-cached features. Instead, the features are extracted directly during code execution):
+We conduct experiments on 4 different V/VL NLE Datasets: **VQA-X, ACT-X, e-SNLI-VE** and **VCR**. Please download the images into a folder in your directory named `images` using the following links (our code *does not* use pre-cached features. Instead, the features are extracted directly during code execution):
 <br>
 - **VQA-X**: [COCO](https://cocodataset.org/#download) `train2014` and `val2014` images<br>
 - **ACT-X**: [MPI](http://human-pose.mpi-inf.mpg.de/#download) images <br>
@@ -20,7 +20,7 @@ We conduct experiments on 4 different V/Vl NLE Datasets: **VQA-X, ACT-X, e-SNLI-
 - **VCR**: [VCR](https://visualcommonsense.com/download/) images <br>
 
 ### Annotations Download
-We structure the annotations for these datasets. You can dowloaded the structured annotations from here: [VQA-X](https://drive.google.com/drive/folders/16sJjeEQE2o23G-GGUi870ubXzJjdRDua?usp=sharing), [ACT-X](https://drive.google.com/drive/folders/1FffVDEgHmqnWiqD5-B5700gqErQ-3U1M?usp=sharing), [e-SNLI-VE](https://drive.google.com/drive/folders/16YyIbjOr0XAD-34sUFsmrsXxbD5aKTVf?usp=sharing), [VCR](https://drive.google.com/drive/folders/1Cpk0wngnnlW0zr_dfHvdR15Lec56HSZm?usp=sharing)
+We structure the annotations for the NLE datasets. You can dowloaded the structured annotations from here: [VQA-X](https://drive.google.com/drive/folders/16sJjeEQE2o23G-GGUi870ubXzJjdRDua?usp=sharing), [ACT-X](https://drive.google.com/drive/folders/1FffVDEgHmqnWiqD5-B5700gqErQ-3U1M?usp=sharing), [e-SNLI-VE](https://drive.google.com/drive/folders/16YyIbjOr0XAD-34sUFsmrsXxbD5aKTVf?usp=sharing), [VCR](https://drive.google.com/drive/folders/1Cpk0wngnnlW0zr_dfHvdR15Lec56HSZm?usp=sharing)
 <br>
 <br>
 You also need [cococaption](https://github.com/tylin/coco-caption) and the annotations in the correct format in order to perform evaluation on NLG metrics. 
