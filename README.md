@@ -1,6 +1,10 @@
 # NLX-GPT
 Official Code for **NLX-GPT: A Model for Natural Language Explanations in Vision and Vision-Language Tasks**
 
+<p align="center">
+<img src="demo.png" width="512"/>
+  </p>
+
 ### Requirements
 - [PyTorch](https://pytorch.org/) 1.8 or higher
 - [CLIP](https://github.com/openai/CLIP) (install with `pip install git+https://github.com/openai/CLIP.git`)
