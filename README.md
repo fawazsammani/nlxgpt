@@ -59,7 +59,7 @@ All models can be downloaded from the links below:
 - Concept Head + Wordmap (used in e-SNLI-VE w/ concepts): [link](https://drive.google.com/drive/folders/1Hnk5NVvP5SqC-DeJT-znqwGzpU796QQl?usp=sharing)
 - e-SNLI-VE (w/o concepts): [link](https://drive.google.com/drive/folders/1A4NlhIWy5byrqEfbIeh7Mgdxh1WGOD2x?usp=sharing)
 - e-SNLI-VE (w/ concepts): [link](https://drive.google.com/drive/folders/1q4C9jujdHgXkc5IEsBD1HxAiVm4f8zp1?usp=sharing)
-- VCR: [link](https://drive.google.com/drive/folders/1ApplfjJjQ-eLz8zjcf4iT1OSs0mY1dmk?usp=sharing)
+- VCR: [link](https://drive.google.com/drive/folders/1ApplfjJjQ-eLz8zjcf4iT1OSs0mY1dmk?usp=sharing)<br>
 Note: Place the concept model and its wordmap in a folder: `pretrained_model/`
 
 ### Results 
