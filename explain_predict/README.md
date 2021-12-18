@@ -1,8 +1,7 @@
 Code will be up soon
 
-
 <p align="center">
-<img src="ep.png width="256">
+<img src="ep.png" width="256"/>
   </p>
 
 ### Pretrained Models 
