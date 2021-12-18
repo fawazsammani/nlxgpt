@@ -3,7 +3,7 @@
   </p>
 
 ### Pretrained Models 
-You can download the DistilBert Explain-Predict models from the link below, and you can directly evalaute the NLE model by feeding the generated output explanation.
+You can download the DistilBert Explain-Predict models from the link below, trained on the ground-truth explanation-answer pairs. Then you can directly evalaute the NLE model by feeding the generated output explanation.
 <br>
 <br>
 - **VQA-X**: [link](https://drive.google.com/drive/folders/1dN2VLOcrSAxSaAzKqLou6ahizZscc9bw?usp=sharing)<br>
