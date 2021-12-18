@@ -62,6 +62,16 @@ Please run from the command line with: <br>
 accelerate launch esnlive_concepts.py
 ```
 
+##### VCR
+Please run from the command line with: <br>
+```bash
+accelerate launch vcr.py
+```
+This will give you the unfiltered scores. After that, we use BERTScore to filter the incorrect answers and get the filtered scores (see Appendix for more details). Since BERTScore takes time to calculate, it is not ideal to run it and filter scores after every epoch. Therefore, perform this operation once on the epoch with the best unfiltered scores. Please run:
+```bash
+python vcr_filter.py
+```
+
 ### Models
 All models can be downloaded from the links below:
 - VQA-X (w/o pretraining): [link](https://drive.google.com/drive/folders/187_WSQUSHNf1Ga9qrynbUR98jMlwl3NF?usp=sharing)
