@@ -2,7 +2,7 @@ Code will be up soon
 
 
 <p align="center">
-<img src="ep.png">
+<img src="ep.png width="256">
   </p>
 
 ### Pretrained Models 
