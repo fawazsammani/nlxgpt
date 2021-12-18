@@ -12,3 +12,9 @@ You can download the DistilBert Explain-Predict models from the link below, and 
 
 ### Code
 The code includes training the model on the ground-truth explanation-answer pairs. At evaluation time, the input to the model is the generated output explanation. You can either train the model from scratch or use the pretrained models in the links above (in this case use the very last part of the code). Training is a one-time process and is general to all NLE models for a given task. Please download the structured data from here: [VQA-X](https://drive.google.com/drive/folders/1y90PPjP2bz2y5djH0tg9cvr1mIJ7hw-o?usp=sharing), [ACT-X](https://drive.google.com/drive/folders/1AGpMqc052IYfKCuan5CPpMb86LdOenRF?usp=sharing), [e-SNLI-VE](https://drive.google.com/drive/folders/1mABE8eTn6KUeVjAoPEEUxkoPuKVdhlET?usp=sharing). Alternatively, you can create them yourself (see `prepare data` folder). Although we restructure the data and create another file, this is only done for convinience. The content of these files are identical to the explanation-answer ground truth pairs (for training) and the generated output explanation from the NLE model (for testing).
+
+```bash
+python ep_vqaX.py
+python ep_actX.py
+python ep_esnlive.py
+```
