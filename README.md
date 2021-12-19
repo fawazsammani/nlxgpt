@@ -98,5 +98,7 @@ See section 4 of the paper for more details.
 - e-SNLI-VE (w/ concepts): [link](https://drive.google.com/drive/folders/1ex8JXxFF9D02WlI6qkCmryxmQXAlNKX_?usp=sharing)
 - VCR: [link](https://drive.google.com/drive/folders/1Fp1xHux3GD8qdg7a2FQBHDdnPbw6MQL6?usp=sharing)
 
+Please note, that in case of VCR, the results shown in Page 4 of the appendix may not identically correspond to to the results and pretrained model in the links above. We have trained several models and randomly picked one for presenting the qualitative results. 
+
 ### Proposed Evaluation Metrics
 Please see `explain_predict` and `retrieval_attack` folders.
