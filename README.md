@@ -1,5 +1,6 @@
 # NLX-GPT
-Official Code for **NLX-GPT: A Model for Natural Language Explanations in Vision and Vision-Language Tasks**
+Official Code for **NLX-GPT: A Model for Natural Language Explanations in Vision and Vision-Language Tasks** <br>
+[arXiv](https://arxiv.org/abs/2203.05081)
 
 <p align="center">
 <img src="demo.png" width="512"/>
