@@ -1,6 +1,7 @@
 # [NLX-GPT](https://arxiv.org/abs/2203.05081)
 Official Code for **NLX-GPT: A Model for Natural Language Explanations in Vision and Vision-Language Tasks | [arXiv](https://arxiv.org/abs/2203.05081)** 
-
+<br>
+[NEW] Gradio demo for VQA-X [here](https://huggingface.co/spaces/Fawaz/nlx-gpt)
 <p align="center">
 <img src="demo.png" width="512"/>
   </p>
