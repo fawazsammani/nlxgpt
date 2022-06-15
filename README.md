@@ -3,6 +3,8 @@ Official Code for **NLX-GPT: A Model for Natural Language Explanations in Vision
 <br>
 <br>
 **[NEW]** Gradio web-demo for VQA-X [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Fawaz/nlx-gpt)
+<br>
+**[NEW]** Gradio web-demo for ACT-X [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Fawaz/nlx_gpt_action)
 
 <br>
 <br>
