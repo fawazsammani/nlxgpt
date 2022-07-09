@@ -11,10 +11,10 @@ from cococaption.pycocotools.coco import COCO
 from cococaption.pycocoevalcap.eval import COCOEvalCap
 from PIL import Image
 from accelerate import Accelerator
-from gpt import GPT2LMHeadModel
-from clip_vit import ImageEncoder
-from data_utils import proc_ques
-from eval_utils import top_filtering
+from models.gpt import GPT2LMHeadModel
+from models.clip_vit import ImageEncoder
+from utils.data_utils import proc_ques
+from utils.eval_utils import top_filtering
 
 
 def change_requires_grad(model, req_grad):
