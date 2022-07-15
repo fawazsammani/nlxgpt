@@ -9,7 +9,7 @@ Official Code for **NLX-GPT: A Model for Natural Language Explanations in Vision
 <br>
 <br>
 <p align="center">
-<img src="demo.png" width="512"/>
+<img src="utils/demo.png" width="512"/>
   </p>
 
 ### Requirements
@@ -81,7 +81,7 @@ python vcr_filter.py
 
 ### Models
 All models can be downloaded from the links below:
-- Pretrained Model on Image Captioning [link](https://drive.google.com/drive/folders/1_3xVoMJwV98j7vUxEEJsQ0LGqFGtfkca?usp=sharing)
+- Pretrained Model on Image Captioning: [link](https://drive.google.com/drive/folders/1_3xVoMJwV98j7vUxEEJsQ0LGqFGtfkca?usp=sharing)
 - VQA-X (w/o pretraining): [link](https://drive.google.com/drive/folders/187_WSQUSHNf1Ga9qrynbUR98jMlwl3NF?usp=sharing)
 - VQA-X (w/ pretraining): [link](https://drive.google.com/drive/folders/1Bfc__0HRzYPyvRe0Ur_oSbhO8dSavT4e?usp=sharing)
 - ACT-X (w/o pretraining): [link](https://drive.google.com/drive/folders/1b9fG54lm-PnXrPvYhnFe4T78gHrU93IS?usp=sharing)
