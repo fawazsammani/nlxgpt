@@ -33,10 +33,6 @@ We structure the annotations for the NLE datasets. You can dowloaded the structu
 You also need [cococaption](https://github.com/tylin/coco-caption) and the annotations in the correct format in order to perform evaluation on NLG metrics. 
 We use the cococaption python3 toolkit [here](https://github.com/ruotianluo/coco-caption/tree/ea20010419a955fed9882f9dcc53f2dc1ac65092). Please download it and place the `cococaption` folder in your directory. You will also need [BertScore](https://github.com/Tiiiger/bert_score) if you evaluate using it. You may install with `pip install bert_score==0.3.7` <br>
 <br>
-Then download the processed annotations in cococaption format from [here](https://drive.google.com/drive/folders/1b8kUPbgtEduiz8A_VbUg0W_vca7PyXsZ?usp=sharing) and place them in `cococaption/annotations`. <br>
-<br>
-Alternatively, you can create all the annotations yourself from the original files. Please follow the instructions in the `data` folder for that. <br><br>
-For pretraining and concept detection, you need also data from the Visual Genome. Please see the `pretrain` folder for more information.
 
 ### Code
 First please setup your distributed training. In your environment command line, type: <br>
