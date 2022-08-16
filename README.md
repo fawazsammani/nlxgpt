@@ -31,7 +31,9 @@ We structure the annotations for the NLE datasets. You can dowloaded the structu
 <br>
 <br>
 You also need [cococaption](https://github.com/tylin/coco-caption) and the annotations in the correct format in order to perform evaluation on NLG metrics. 
-We use the cococaption python3 toolkit [here](https://github.com/ruotianluo/coco-caption/tree/ea20010419a955fed9882f9dcc53f2dc1ac65092). Please download it and place the `cococaption` folder in your directory. You will also need [BertScore](https://github.com/Tiiiger/bert_score) if you evaluate using it. You may install with `pip install bert_score==0.3.7` <br>
+We use the cococaption python3 toolkit [here](https://github.com/ruotianluo/coco-caption/tree/ea20010419a955fed9882f9dcc53f2dc1ac65092). Please download it and place the `cococaption` folder in your directory. The annotations in the correct format can be downloaded [here](https://drive.google.com/drive/folders/1b8kUPbgtEduiz8A_VbUg0W_vca7PyXsZ?usp=sharing). 
+
+You will also need [BertScore](https://github.com/Tiiiger/bert_score) if you evaluate using it. You may install with `pip install bert_score==0.3.7` <br>
 
 ### Code
 1 GPU is enough for finetuning on NLE. However if you wish to do distributed training, please setup first using `accelerate`. Note that you can still use `accelerate` even if you have 1 GPU. In your environment command line, type: <br>
