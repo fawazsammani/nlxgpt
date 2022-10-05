@@ -1,5 +1,6 @@
 # [NLX-GPT](https://arxiv.org/abs/2203.05081)
-Official Code for **NLX-GPT: A Model for Natural Language Explanations in Vision and Vision-Language Tasks | [arXiv](https://arxiv.org/abs/2203.05081)** 
+Official Code for **NLX-GPT: A Model for Natural Language Explanations in Vision and Vision-Language Tasks** <br>
+[arXiv](https://arxiv.org/abs/2203.05081) | [video](https://www.youtube.com/watch?v=GwgFYUZKvRk&ab_channel=ArtificialIntelligence)
 <br>
 <br>
 **[NEW]** Gradio web-demo for VQA-X [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Fawaz/nlx-gpt)
