@@ -93,6 +93,7 @@ def filter_and_get_scores(resFileExp, save_scores_pathExp, full_predictions, exp
     for key,value in pred_answers.items():
         gt_answer = gt_answers[key]
         # to measure accuracy for VQA, please change "==" to "in" (if value in gt_answer:)
+        # you need to also change the proc_ans funtion in utils/data_uitls.py to return: list(ans_prob_dict.keys())
         if value == gt_answer:
             correct_keys.append(key)
             
